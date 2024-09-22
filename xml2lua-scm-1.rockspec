@@ -1,8 +1,7 @@
 package = "xml2lua"
-version = "1.6-2"
+version = "scm-1"
 source = {
    url = "git://github.com/manoelcampos/xml2lua",
-   tag = "v1.6-2"
 }
 description = {
    summary = "An XML Parser written entirely in Lua that works for Lua 5.1+",
@@ -14,7 +13,7 @@ description = {
    license = "MIT"
 }
 dependencies = {
-   "lua >= 5.1, <= 5.4"
+   "lua >= 5.1"
 }
 build = {
   type = "builtin",
